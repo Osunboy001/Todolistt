@@ -51,7 +51,7 @@
 color: white;
     }
     .section{
-      background-image: url('/you.jpg');
+      background-image: url('/img/you.jpg');
       background-size: cover;
       background-position: center;
       position: relative;
