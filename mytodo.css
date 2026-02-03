@@ -1,0 +1,99 @@
+  
+  *{
+    margin: 0;
+    padding: 0;
+  }
+  
+  
+  
+  
+  
+  
+  
+  h1{
+    color: white;
+    text-align: center;
+    cursor: pointer;
+    padding-top: 1rem;
+  }
+.box {
+
+  align-items: center;
+  size: 30px;
+  color: white;
+  text-align: center;
+}
+    input {
+         
+        display: block; 
+        margin: 0 auto;
+        height: 30px;
+        width: 250px;
+        font-size: 18px;
+    }
+
+    button {
+      
+        width: 200px; 
+        display: block; 
+         margin: 0 auto;
+        margin-top: 8px;
+        height: 30px;
+        color: white;
+    }
+    li{
+      font-size: 20px;
+    }
+    li {
+      list-style: none;
+      text-align: center;
+      padding-right: 20px;
+color: white;
+    }
+    .section{
+      background-image: url('/you.jpg');
+      background-size: cover;
+      background-position: center;
+      position: relative;
+      z-index: 0;
+      height: 42rem;
+    }
+    .section::before {
+      position: absolute;
+      content: "";
+      top: 0;
+      left: 0;
+      bottom: 0;
+      right: 0;
+      background-color: rgba(0, 0, 0, 0.664);
+      z-index:-1;
+    }
+    #add{
+    background-color: green;
+    }
+
+    #deletebu {
+      background-color: red;
+    }
+
+    .iamp {
+ font-size: 3rem;
+ color: white;
+text-align: center;
+}
+
+  .iamp:after {
+    content: "";
+    animation: 7s swap infinite;
+    font-size: 1.3rem;
+  
+    color:white;
+    font-weight: bold;
+    
+  }
+
+
+.button {
+  background-color: red;
+  font-size: 70px;
+}
